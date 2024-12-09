@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {     /* Formatear documento */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(28, 83, 28);         /*Color fondo del nav bar*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+
+}
+
+header .logo img { 
+    height: 140px;       /*Altura*/
+    width: auto;    /*ancho*/
+    
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: rgb(255, 255, 255);           /*Color letra de los links*/
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color:rgba(255, 255, 255, 0.615);             /*el color cambia al pasar el cursos por encima */
+}
+
+.header .btn button {
+    margin-left: 20px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);              /*color letra del boton*/
+    padding: 6px 12px;
+    background-color: rgb(20, 58, 20);             /*color fondo del boton*/
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.header .btn button:hover { 
+    background-color: rgb(55, 103, 55);           /*Color cambia al pasar el cursos por encima*/
+    color:rgb(255, 255, 255);                      /*la letra del boton cambia al pasar el cursos*/
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(28, 83, 28);
+}
+
+.descripcion {
+    margin: 80px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    transition: all 0.3 ease 0s;
+
+}
+
+.contenedor_imagenes {
+
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+}
+
+.tula {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(28, 83, 28);
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}

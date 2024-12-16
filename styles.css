@@ -27,7 +27,7 @@ header {
 }
 
 header .logo img { 
-    height: 140px;       /*Altura*/
+    height: 90px;       /*Altura*/
     width: auto;    /*ancho*/
     
 }
@@ -82,6 +82,7 @@ h1 {
     font-size: 80px;
     text-align: center;
     color: rgb(28, 83, 28);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .descripcion {
@@ -95,20 +96,55 @@ h1 {
 
 }
 
-.contenedor_imagenes {
+h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 40px;
+    color:rgb(255, 255, 255) ;
+}
 
+.contenedor_imagenes {
+    display: flex;
+    flex-direction:row;
+    margin-inline: 20px;
+    padding: 10px;
+    background-color: rgb(28, 83, 28);
+    justify-content: center;
+    border-radius: 4px;
 }
 
 .imagenes {
-    display: flex;
-    flex-direction: row;
+    margin: auto;
+
+
+}
+
+.imagenes2 {
+    margin: auto;
+    
+}
+
+.imagenes3 {
+    margin: auto;
 }
 
 .tula {
     width: 200px;
     height: 200px;
-    padding: 10px;
-    background-color: rgb(28, 83, 28);
-    margin: 10px;
-    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    padding: 11px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+.tula:hover {
+    transform: scale(1.1);
+    transition: all 0.3 ease 9s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.contenedor_nosotros {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
 }

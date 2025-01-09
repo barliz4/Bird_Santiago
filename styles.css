@@ -154,7 +154,12 @@ h2 {
 ----------------------------------*/
 
 .contenedor_contacto {
+    
+}
 
+.contac_title {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
 }
 
 .contacto_{
@@ -162,7 +167,7 @@ h2 {
 }
 
 .Formulario{
-    background-color: rgb(0, 0, 0); 
+    
 }
 
 .contenedor_contacto {
@@ -171,33 +176,34 @@ h2 {
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    background-color: #00000069;
+    background-color: rgb(10, 94, 10);   /*Color Fondo Formulario*/
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(0, 0, 0);  /*Sombra*/
     max-width: 600px;
     margin: 0 auto;
 }
 
 .contacto_ label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-weight: bold;
 }
 
 .contacto_ input[type="text"],
 .contacto_ input[type="email"],
+.contacto_ input[type="number"],
 .contacto_ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #000000;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
 .contacto_ input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -205,5 +211,10 @@ h2 {
 }
 
 .contacto_ input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transition: all 0.3 ease 0s;
+    transform: scale(1.05);
+    opacity: 0.8;
+
 }

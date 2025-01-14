@@ -207,7 +207,7 @@ h2 {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /*cursor*/
 }
 
 .contacto_ input[type="submit"]:hover {
